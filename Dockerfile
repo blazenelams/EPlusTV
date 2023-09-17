@@ -15,7 +15,7 @@ RUN \
   cd /app && \
   npm ci
 
-EXPOSE 8000
+EXPOSE 8005
 
 RUN chmod +x entrypoint.sh
 
